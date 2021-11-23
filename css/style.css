@@ -1,0 +1,103 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Manrope:wght@300&family=Poppins:wght@300;600&display=swap');
+/* font-family: 'Inter', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Poppins', sans-serif;
+ */
+
+*{
+    overflow-x: hidden;
+ 
+}
+body{
+    font-family: 'Poppins', sans-serif;
+  
+}
+/* font */
+.font-inter{
+ font-family: 'Inter', sans-serif;
+}
+/* color */
+.blue-green{
+    background-color: #264653;
+}
+.bg-orange{
+    background-color: #E76F51;
+}
+.bg-black{
+    background-color: #000000;
+}
+.blue{
+    color: #23A6F0;
+}
+.orange{
+    color: #E76F51;
+}
+.black{
+  color:  #0A0826;
+}
+.gray{
+  color: #E0E0E0;
+}
+.gray1{
+  background-color: #E0E0E0;
+}
+.bg-blue{
+  background-image: linear-gradient(to bottom right, rgba(0, 26, 255, 0.527), rgba(0, 183, 255, 0.63));
+}
+
+
+/* header */
+.header h6{
+font-size: 14px;
+}
+.header h1{
+    font-size: 48px;
+}
+.header p{
+    font-size: 16px;
+}
+/* Font Size */
+.font-xl{
+font-size: 48px;
+}
+.font-sm{
+    font-size: 14px;
+}
+/* Main */
+.card-text{
+  color: #6C6C6C;
+  font-size: 16px;
+}
+.faq h6{
+  font-size: 20px;
+  color: #383838;
+}
+.faq p{
+  font-size: 16px;
+  color: #7E848C;
+ }
+/* Fetured Bikes */
+#feture .img:nth-child(2n+1){
+    filter: grayscale(100%);
+}
+.accordion-button:not(.collapsed) {
+    color: #000000;
+    background-color: #ffffff;
+    box-shadow: inset 0 0px 0 rgb(0 0 0 / 13%);
+}
+
+/* category */
+#category{
+    background-image: linear-gradient(to bottom right, rgba(19, 19, 19, 0.753), rgba(42, 42, 43, 0.842)),url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+}
+#footer{
+    background-image: linear-gradient(to bottom right, rgba(19, 19, 19, 0.911), rgba(22, 22, 22, 0.918)),url(../images/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
